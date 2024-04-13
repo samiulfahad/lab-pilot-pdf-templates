@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pay Receipt</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        content: ["./src/**/*.{html,js}"],
+        theme: {
+          extend: {
+            colors: {
+              primary: "#949b36cc",
+            },
+          },
+        },
+      }
+    </script>
+  </head>
+  <body>
+    <section class="max-w-2xl mx-auto pt-20">
+      <!-- header start -->
+      <header>
+        <h1 class="font-bold text-2xl text-black">আজিজ খান ডায়াগনস্টিক সেন্টার</h1>
+        <h2 class="font-normal mt-2 text-black">সরকারি হাসপাতাল গেইট সংলগ্ন। ভালুকা পৌরসভা, ময়মনসিংহ।</h2>
+        <p class="font-normal text-black">মোবাইলঃ 01761-588184</p>
+        <div class="flex space-x-4">
+          <p class="font-normal text-black">ইমেইলঃ zikokhan16@gmail.com</p>
+        </div>
+      </header>
+      <!-- header end -->
+
+      <!-- main start -->
+      <main class="mt-2">
+        <h1 class="text-center text-xl text-primary font-bold">Invoice</h1>
+        <div class="flex items-center justify-between">
+          <div>
+            <p class="text-base text-black">রোগীর নামঃ</p>
+            <p class="text-base text-black">বয়সঃ</p>
+            <p class="text-base text-black">মোবাইলঃ:</p>
+          </div>
+          <div>
+            <p class="text-base text-black">Invoice ID: xxxx</p>
+            <p class="text-base text-black">তারিখঃ 13th April 2024</p>
+            <p class="text-base text-black">ডাক্তার: Br. XXXh dfgs sdhfksd</p>
+          </div>
+        </div>
+
+        <!-- table start -->
+        <table class="w-full border-separate mt-4">
+          <tr class="bg-primary border border-1">
+            <td class="p-1 font-bold text-base text-white">#</td>
+            <td class="p-1 font-bold text-base text-white">টেস্টের নাম</td>
+            <td class="p-1 pr-2 font-bold text-base text-white text-right">মূল্য তালিকা</td>
+          </tr>
+
+          <tr class="border border-1">
+            <td class="p-1 font-semibold text-base text-black">1</td>
+            <td class="p-1 font-semibold text-base text-black">Test Name</td>
+            <td class="p-1 font-semibold text-base text-black text-right">৳ 500.00</td>
+          </tr>
+          <tr class="border border-1">
+            <td class="p-1 font-semibold text-base text-black">2</td>
+            <td class="p-1 font-semibold text-base text-black">Test Name</td>
+            <td class="p-1 font-semibold text-base text-black text-right">৳ 500.00</td>
+          </tr>
+          <tr class="border border-1">
+            <td class="p-1 font-semibold text-base text-black">4</td>
+            <td class="p-1 font-semibold text-base text-black">Test Name</td>
+            <td class="p-1 font-semibold text-base text-black text-right">৳ 500.00</td>
+          </tr>
+          <tr class="border border-1">
+            <td class="p-1 font-semibold text-base text-black">5</td>
+            <td class="p-1 font-semibold text-base text-black">Test Name</td>
+            <td class="p-1 font-semibold text-base text-black text-right">৳ 500.00</td>
+          </tr>
+          <tr class="border border-1">
+            <td class="p-1 font-semibold text-base text-black">5</td>
+            <td class="p-1 font-semibold text-base text-black">Test Name</td>
+            <td class="p-1 font-semibold text-base text-black text-right">৳ 500.00</td>
+          </tr>
+          <tr class="border border-1">
+            <td class="p-1 font-semibold text-base text-black">5</td>
+            <td class="p-1 font-semibold text-base text-black">Test Name</td>
+            <td class="p-1 font-semibold text-base text-black text-right">৳ 500.00</td>
+          </tr>
+          <tr class="border border-1">
+            <td class="p-1 font-semibold text-base text-black">5</td>
+            <td class="p-1 font-semibold text-base text-black">Test Name</td>
+            <td class="p-1 font-semibold text-base text-black text-right">৳ 500.00</td>
+          </tr>
+          <tr class="border border-1">
+            <td class="p-1 font-semibold text-base text-black">5</td>
+            <td class="p-1 font-semibold text-base text-black">Test Name</td>
+            <td class="p-1 font-semibold text-base text-black text-right">৳ 500.00</td>
+          </tr>
+          <tr class="border border-1">
+            <td class="p-1 font-semibold text-base text-black">5</td>
+            <td class="p-1 font-semibold text-base text-black">Test Name</td>
+            <td class="p-1 font-semibold text-base text-black text-right">৳ 500.00</td>
+          </tr>
+          <tr class="border border-1">
+            <td class="p-1 font-semibold text-base text-black">5</td>
+            <td class="p-1 font-semibold text-base text-black">Test Name</td>
+            <td class="p-1 font-semibold text-base text-black text-right">৳ 500.00</td>
+          </tr>
+          
+        </table>
+        <!-- table end -->
+
+        <div class="flex items-center justify-between border-b-[1px] border-t-[1px] border-slate-300 py-1">
+          <p class="font-bold text-base ml-24">Total</p>
+          <p class="font-bold text-base">৳500.00</p>
+        </div>
+
+        <div class="flex items-start justify-between">
+          <div class="pl-10 w-1/2 flex items-start flex-col">
+            <img class="w-32 h-32 mt-4" src="./assets/img/qr_code.png" alt="qr code" />
+
+            <div class="font-normal text-sm text-justify w-48 mt-2">
+              সর্বশেষ আপডেট জানতে এবং রিপোর্ট ডাউনলোড করার জন্য QR Code টি স্ক্যান করুন
+            </div>
+          </div>
+          <div class="w-1/2">
+            <table class="w-full mt-2 border-b-[1px] border-primary">
+              <tr>
+                <td class="text-[13px] text-black">মোট</td>
+                <td class="font-semibold text-base text-black text-right">৳2900.00</td>
+              </tr>
+              <tr>
+                <td class="text-[13px] text-black">ডিস্কাউন্ট (30.0%)</td>
+                <td class="font-semibold text-base text-black text-right">৳2900.00</td>
+              </tr>
+
+              <tr>
+                <td class="text-[13px] text-black">ডিস্কাউন্টের পর</td>
+                <td class="font-semibold text-base text-black text-right">৳2900.00</td>
+              </tr>
+              <tr>
+                <td class="text-[13px] text-black">Adjustment</td>
+                <td class="font-semibold text-base text-black text-right">৳2900.00</td>
+              </tr>
+              <tr class="bg-primary">
+                <td class="font-semibold text-base text-white">সর্বমোট</td>
+                <td class="font-semibold text-base text-white text-right">৳2900.00</td>
+              </tr>
+
+              <tr>
+                <td class="font-semibold text-base text-primary">নগদ</td>
+                <td class="font-semibold text-base text-primary text-right">৳2900.00</td>
+              </tr>
+
+              <tr>
+                <td class="font-semibold text-base text-primary">বাকি</td>
+                <td class="font-semibold text-base text-primary text-right">৳2900.00</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </main>
+      <footer class="w-full flex justify-between items-center mt-20 pb-10">
+        <p class="font-bold mt-2 text-sm text-left text-slate-400">Managed by <a href="">Lab-Pilot.com</a></p>
+        <div class="w-40 h-2 border-t-[1px] border-black ml-auto">
+          <p class="font-semibold text-base text-black text-center">Signature</p>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>
